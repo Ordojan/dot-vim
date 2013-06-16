@@ -1,0 +1,7 @@
+Installation:
+
+  git clone git://github.com/ordojan/dot-vim.git ~/.vim
+
+create symlink:
+
+  ls -s ~/.vim/vimrc ~/.vimrc
