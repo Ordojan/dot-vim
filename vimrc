@@ -119,7 +119,7 @@ syntax enable
 colorscheme zenburn
 set background=dark
 
-set guifont=droid\ sans\ mono\ regular\ 12
+set guifont=droid\ sans\ mono\ regular\ 13
 
 " Set extra options when running in GUI mode
 if has("gui_running")
@@ -179,6 +179,9 @@ vnoremap <silent> # :call VisualSelection('b')<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Moving around, tabs, windows and buffers
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Split lines
+:nnoremap K i<CR><Esc>
+
 " Treat long lines as break lines (useful when moving around in them)
 map j gj
 map k gk
