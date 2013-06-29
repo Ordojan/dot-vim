@@ -179,6 +179,9 @@ vnoremap <silent> # :call VisualSelection('b')<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Moving around, tabs, windows and buffers
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" _ is considered a word
+set iskeyword-=_
+
 " Split lines
 :nnoremap K i<CR><Esc>
 
