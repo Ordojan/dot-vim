@@ -1,6 +1,6 @@
 # Installation:
 
-  git clone git@github.com:Ordojan/dot-vim.git ~/.vim
+    git clone git@github.com:Ordojan/dot-vim.git ~/.vim
 
 ### Create symlink:
 
