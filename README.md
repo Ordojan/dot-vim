@@ -21,3 +21,4 @@
     git submodule add https://github.com/othree/xml.vim.git bundle/xml
     git add .
     git commit -m "Installed xml.vim bundle as a submodule."
+    git push origin master
