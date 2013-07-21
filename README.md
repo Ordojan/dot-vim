@@ -4,19 +4,17 @@
 
 ### Create symlink:
 
-  ln -s ~/.vim/vimrc ~/.vimrc
+    ln -s ~/.vim/vimrc ~/.vimrc
   
 ### Setup git submodules:
 
-  git submodule init
-  
-  git submodule update
+    git submodule init
+    
+    git submodule update
   
 ### Update git submodules:
 
-  git submodule foreach git pull origin master
-
------
+    git submodule foreach git pull origin master
 
 # Add additional plugins
 
