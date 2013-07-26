@@ -204,6 +204,12 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
+" Maximize a split in the buffer
+map <S-M> <C-w>_
+
+" Restore a split in the buffer
+map <C-M> <C-w>=
+
 " Close the current buffer
 map <leader>bd :Bclose<cr>
 
